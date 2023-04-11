@@ -1,15 +1,44 @@
 .App {
   text-align: center;
+  height: 10000px;
+  position: relative;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #393939;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #C6C6C6;
   font-family: 'Noto Sans', sans-serif;
+}
+
+.App-topheader {
+  background-color: #C6C6C6;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-size: calc(10px + 2vmin);
+  color: #393939;
+  font-family: 'Noto Sans', sans-serif;
+  height: 150px;
+  text-align: center;
+  height: 100px;
+  padding: 1px 0px 19px 0px;
+}
+
+.App-sideheader {
+  background-color: #C6C6C6;
+  width: 150px; 
+  position: fixed; 
+  margin-left: 0;
+  z-index: 10;
+  font-size: calc(10px + 2vmin);
+  color: #393939;
+  font-family: 'Noto Sans', sans-serif;
+  height: 100%;
+  text-align: center;
 }

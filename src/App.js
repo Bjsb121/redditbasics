@@ -7,9 +7,14 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <input type="text" placeholder="Search Reddit" />
+      <header className='App-topheader'>
         <h1>Reddit Basics</h1>
+      </header>
+      <header className='App-sideheader'>
+        <h1>RB</h1>
+      </header>
+      <header className='App-header'>
+        <h1>RB Main</h1>
       </header>
     </div>
   );
