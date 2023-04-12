@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <header className='App-topheader'>
         <h1>Reddit Basics</h1>
-        <input type='text' placeholder='Search Reddit' className='search-bar'></input>
+        <input type='text' placeholder='    Search Reddit' className='search-bar'></input>
       </header>
       <header className='App-sideheader'>
         <h2>Feeds</h2>
