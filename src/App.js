@@ -9,9 +9,19 @@ function App() {
     <div className='App'>
       <header className='App-topheader'>
         <h1>Reddit Basics</h1>
+        <input type='text' placeholder='Search Reddit' className='search-bar'></input>
       </header>
       <header className='App-sideheader'>
-        <h1>RB</h1>
+        <h2>Feeds</h2>
+          <p>Popular</p>
+        <h2>Topics</h2>
+          <p>Gaming</p>
+          <p>Sports</p>
+          <p>Business, Economics, and Finance</p>
+          <p>Crypto</p>
+          <p>Television</p>
+          <p>Celebrity</p>
+          <p>More Topics</p>
       </header>
       <header className='App-header'>
         <h1>RB Main</h1>
