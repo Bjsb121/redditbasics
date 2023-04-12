@@ -13,19 +13,28 @@ function App() {
       </header>
       <header className='App-sideheader'>
         <h2>Feeds</h2>
-          <p>Popular</p>
+          <a href='#'><p>Popular</p></a>
         <h2>Topics</h2>
-          <p>Gaming</p>
-          <p>Sports</p>
-          <p>Business, Economics, and Finance</p>
-          <p>Crypto</p>
-          <p>Television</p>
-          <p>Celebrity</p>
-          <p>More Topics</p>
+          <a href='#'><p>Gaming</p></a>
+          <a href='#'><p>Sports</p></a>
+          <a href='#'><p>Business, Economics, and Finance</p></a>
+          <a href='#'><p>Crypto</p></a>
+          <a href='#'><p>Television</p></a>
+          <a href='#'><p>Celebrity</p></a>
+          <a href='#'><p>More Topics</p></a>
       </header>
-      <header className='App-header'>
-        <h1>RB Main</h1>
-      </header>
+      <section className='App-main'>
+        <div>
+          <p className='post-title'>
+            Post Titlesjhshjfosho
+          </p>
+          <img className='post-img' src='https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg'></img>
+          <div className='post-votes'></div>
+          <p className='post-author'></p>
+          <p className='post-time'></p>
+          <div className='post-comments'></div>
+        </div>
+      </section>
     </div>
   );
 }
