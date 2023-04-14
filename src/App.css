@@ -6,7 +6,7 @@ html {
 
 .App {
   text-align: center;
-  height: 2500px;
+  height: 100%;
   position: relative;
 }
 
@@ -16,9 +16,8 @@ html {
   background-color: #393939;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 15;
   font-size: calc(10px + 2vmin);
-  /* color: #c6c6c6; */
   color: #ff5700;
   height: 150px;
   text-align: center;
@@ -47,12 +46,16 @@ html {
   background-color: #c6c6c6;
 }
 
+.log-in-btn {
+  height: 30px;
+}
+
 .App-sideheader {
   background-color: #393939;
   width: 200px;
   position: fixed;
   margin-left: 0;
-  z-index: 15;
+  z-index: 10;
   font-size: calc(10px + 2vmin);
   color: #c6c6c6;
   font-family: 'Noto Sans', sans-serif;
@@ -68,7 +71,7 @@ h2 {
   padding-top: 10px;
 }
 
-p {
+a p {
   font-size: 1rem;
   font-weight: 300;
   max-width: 150px;
@@ -113,6 +116,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin: 50px 0px;
 }
 
 .post-title {
