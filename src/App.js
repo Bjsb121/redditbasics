@@ -24,11 +24,11 @@ function App() {
           <a href='#'><p>More Topics</p></a>
       </header>
       <section className='App-main'>
-        <div>
-          <p className='post-title'>
-            Post Titlesjhshjfosho
-          </p>
-          <img className='post-img' src='https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg'></img>
+        <div className='post-main'>
+          <h3 className='post-title'>
+            I just met Jesus!
+          </h3>
+          <img className='post-img' src='https://www.simplilearn.com/ice9/free_resources_article_thumb/The_Future_of_Robotics.jpg'></img>
           <div className='post-votes'></div>
           <p className='post-author'></p>
           <p className='post-time'></p>
